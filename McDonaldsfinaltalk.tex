@@ -191,13 +191,13 @@ Yen Theng Tan \\
 \begin{tabular}{ l | c|c|c }
   Ice Proportion & A  & B & C  \\
 \hline  
-t=30seconds & & &\\ 
+t=0.5mins & & &\\ 
 \hline  
-t= 2 minutes & & &\\ 
+t=2mins & & &\\ 
 \hline  
-t=5 minutes  & & &\\ 
+t=5mins  & & &\\ 
 \hline  
-t= 30 minutes & & &\\ 
+t=30mins & & &\\ 
 \hline  
    
  \end{tabular}
@@ -218,8 +218,129 @@ t= 30 minutes & & &\\
 \end{itemize}
 
 \end{frame}
+
+\subsection{Results}
+\begin{frame}
+    \frametitle{Results - Experimental approach}
+
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c }
+  &40\% &60\% & 75\%  \\
+\hline  
+t=0.5 mins & 15 & 25 & 32\\ 
+\hline  
+t=2 mins & 14 & 24 & 34\\ 
+\hline  
+t=5 mins & 14 & 27 & 31\\ 
+\hline  
+t=30 mins & 18 & 36 & 18\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Coke}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results - Experimental approach}
+
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c }
+  &40\% &60\% & 75\%  \\
+\hline  
+t=0.5 mins & 15 & 27 & 30\\ 
+\hline  
+t=2 mins & 20 & 19 & 33\\ 
+\hline  
+t=5 mins & 14 & 29 & 29\\ 
+\hline  
+t=30 mins & 17 & 30 & 25\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Sprite}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results - Experimental approach}
+
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c }
+  &40\% &60\% & 75\% \\
+\hline  
+t=0.5 mins & 15 & 23 & 34\\ 
+\hline  
+t=2 mins & 19 & 23 & 30\\ 
+\hline  
+t=5 mins & 18 & 27 & 27\\ 
+\hline  
+t=30 mins & 12 & 35 & 25\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Fanta Orange}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results - Experimental approach}
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c}
+  &40\% &60\% & 75\%  \\
+\hline  
+t=0.5 mins & 15 & 24 & 33\\ 
+\hline  
+t=2 mins & 21& 19 & 32\\ 
+\hline  
+t=5 mins & 16 & 24 & 32\\ 
+\hline  
+t=30 mins & 18 & 22& 32\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Diet Coke}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Results - Physics-based approach}
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c}
+ Volume of ice to volume of soda &Dilution &Temperature (Celsius) \\
+\hline  
+1/10 & 0.09&16.2\\ 
+\hline  
+1/8 & 0.11&14.3\\ 
+\hline 
+1/6 & 0.15&11.2\\ 
+\hline 
+1/5 & 0.18&8.8\\ 
+\hline 
+1/4 & 0.23&5.5\\ 
+\hline 
+   
+ \end{tabular}
+
+\caption{Calculated dilution and temperature for difference ice volumes}
+
+\end{table}
+\end{frame}
  
-\subsection{Results and Analysis}
+\subsection{Analysis}
 \begin{frame}
     \frametitle{Results - Experimental approach}
 
@@ -242,6 +363,10 @@ t=30 mins & 18 & 36 & 18&0.011&significant\\
 \caption{Experiment results for Coke}
 
 \end{table}
+
+\begin{itemize}
+\item blah blah
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -249,7 +374,7 @@ t=30 mins & 18 & 36 & 18&0.011&significant\\
 
 \begin{table}[ h]
 \centering
-\begin{tabular}{ l || c|c|c|c|c }
+\begin{tabular}{ l || c|c|c||c|c }
   &40\% &60\% & 75\% &p-value &significance? \\
 \hline  
 t=0.5 mins & 15 & 27 & 30&0.072&not significant\\ 
@@ -266,6 +391,10 @@ t=30 mins & 17 & 30 & 25&0.011&significant\\
 \caption{Experiment results for Sprite}
 
 \end{table}
+
+\begin{itemize}
+\item blah blah
+\end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -273,7 +402,7 @@ t=30 mins & 17 & 30 & 25&0.011&significant\\
 
 \begin{table}[ h]
 \centering
-\begin{tabular}{ l || c|c|c|c|c }
+\begin{tabular}{ l || c|c|c||c|c }
   &40\% &60\% & 75\% &p-value &significance? \\
 \hline  
 t=0.5 mins & 15 & 23 & 34&0.022&significant\\ 
@@ -290,13 +419,17 @@ t=30 mins & 12 & 35 & 25&0.004&significant\\
 \caption{Experiment results for Fanta Orange}
 
 \end{table}
+
+\begin{itemize}
+\item blah blah
+\end{itemize}
 \end{frame}
 
 \begin{frame}
     \frametitle{Results - Experimental approach}
 \begin{table}[ h]
 \centering
-\begin{tabular}{ l || c|c|c|c|c }
+\begin{tabular}{ l || c|c|c||c|c }
   &40\% &60\% & 75\% &p-value &significance? \\
 \hline  
 t=0.5 mins & 15 & 24 & 33&0.034&significant\\ 
@@ -313,33 +446,38 @@ t=30 mins & 18 & 22& 32&0.115&not significant\\
 \caption{Experiment results for Diet Coke}
 
 \end{table}
-\end{frame}
 
-
-\begin{frame}
-    \frametitle{Analysis - Experimental approach}
 \begin{itemize}
-
-
-
-
-
+\item blah blah
 \end{itemize}
 \end{frame}
 
-
-
-
-
-
-
-
-
 \begin{frame}
     \frametitle{Analysis - Physics-based approach}
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c}
+ Volume of ice to volume of soda &Dilution &Temperature (Celsius) \\
+\hline  
+1/10 & 0.09&16.2\\ 
+\hline  
+1/8 & 0.11&14.3\\ 
+\hline 
+1/6 & 0.15&11.2\\ 
+\hline 
+1/5 & 0.18&8.8\\ 
+\hline 
+1/4 & 0.23&5.5\\ 
+
+\hline 
+   
+ \end{tabular}
+
+\caption{Calculated dilution and temperature for difference ice volumes}
+
+\end{table}
 \begin{itemize}
-\item This approach will yield more theoretical results since it has the implicit assumption of no outside environmental interference (eg. heat loss).
-\item Heat capacities of sodas and ice might be different in different climates. Thus, it is difficult to say how conclusive these calculations can be.
+\item blah blah
 \end{itemize}
 \end{frame}
 
