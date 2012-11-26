@@ -63,37 +63,17 @@ Yen Theng Tan \\
 
 
 \begin{frame}
-    \frametitle{Content}
-    
-    \vspace{7pt}
-             \begin{enumerate}
-                 \item Introduction
- 		 \begin{enumerate}
-                	 \item Sponsor
-		\item Problem Statement
-		\item Deliverables
-\item Timeline
-		\end{enumerate}
-                 \item Content
-		\begin{enumerate}
-\item Assumptions
-                	 \item Approach
-		\item Possible Results/Analysis
-		\end{enumerate}
-                 \item Conclusion
-		\begin{enumerate}
-                	 \item Deliverables
-		\item Advantages/Disadvantages
-		\item Further Recommendations
-		\end{enumerate}
-             \end{enumerate}
+    \frametitle{Outline}
+      \tableofcontents
 \end{frame}
 
+\section{Introduction}
+\subsection{Sponsor}
 \begin{frame}
     \frametitle{Sponsor: McDonald's Corporation}
     \begin{itemize}
-        \item McDonald's Corporation is the world's largest chain of hamburger fastfood restaurants, serving around 68 million customers daily in 119 countries. 
-	\item Mcdonald's primarily sells hamburgers, cheeseburgers, chicken, French fries, breakfast items, soft drinks, milkshakes and desserts. 
+     \item McDonald's Corporation is the world's largest chain of hamburger fastfood restaurants, serving around 68 million customers daily in 119 countries.
+\item Mcdonald's primarily sells hamburgers, cheeseburgers, chicken, French fries, breakfast items, soft drinks, milkshakes and desserts. 
     \end{itemize}
 \end{frame}
 
@@ -101,10 +81,11 @@ Yen Theng Tan \\
     \frametitle{Sponsor: McDonald's Corporation}
     \begin{itemize}
          	\item In response to healthier consumer taste, the company has expanded its menu to include salads, wraps, smoothies and fruits.
-	 \item Soda drinks is a significant portion of McDonald's business, since it is often offered as a beverage along with the extra-value meals.
+	 \item No meal is complete without a drink; and from Diet Coke to low-fat milk to fresh-brewed, hot coffee, McDonald's serves many different varieties of beverages
     \end{itemize}
 \end{frame}
 
+\subsection{Problem Statement}
 \begin{frame}
     \frametitle{Problem Statement}
      \begin{itemize}
@@ -123,7 +104,7 @@ Yen Theng Tan \\
      \end{itemize}
 \end{frame}
 
-
+\subsection{Deliverables}
 \begin{frame}
     \frametitle{Deliverables - From Team to Sponsor}
 
@@ -148,6 +129,7 @@ Yen Theng Tan \\
 \end{itemize}
 \end{frame}
 
+\subsection{Timeline}
 \begin{frame}
     \frametitle{Timeline}
 \begin{itemize}
@@ -160,7 +142,8 @@ Yen Theng Tan \\
 \vspace{6pt} Most of the experiments and coding will be done from mid-October to mid-November.
 \end{frame}
 
-
+\section{Content}
+\subsection{Approach Assumptions}
 \begin{frame}
     \frametitle{Approach Assumptions}
 
@@ -172,6 +155,7 @@ Yen Theng Tan \\
 \end{itemize}
 \end{frame}
 
+\subsection{Experimental Approach}
 \begin{frame}
     \frametitle{Approach 1: Experimental}
 
@@ -188,7 +172,8 @@ Yen Theng Tan \\
 
 \begin {itemize}
 \item By experiment, we will test out which combination of temperature and dilution will yield the highest satisfaction from the test subjects.
-\item We will provide 4 different cups of the same soda (different ice proportions) for the test subject to drink and they will indicate their preference. This will be repeated for 3 more days for the other 3 drinks.
+\item We will provide 3 different cups of the same soda (different ice proportions) for the test subject to drink and they will indicate their preference. This will be repeated for 3 more days for the other 3 drinks.
+\item The ice will be left in the drink for a time period of t (t=0.5mins, 2 mins, 5 mins, 30 mins). The different experiments for the time parameters will be spaced an hour apart.
 \end{itemize}
 \end{frame}
 
@@ -197,7 +182,7 @@ Yen Theng Tan \\
 
 \begin {itemize}
 
-\item This will be a blind test and the subject will not know what ice proportions the cups A, B, C, D have.
+\item This will be a blind test and the subject will not know what ice proportions the cups A, B, C have.
 \end{itemize}
 \vspace{6pt}
 
@@ -222,6 +207,7 @@ t= 30 minutes & & &\\
 
 \end{frame}
 
+\subsection{Physics-based Approach}
 \begin{frame}
     \frametitle{Approach 2: Physics-based}
 
@@ -233,25 +219,112 @@ t= 30 minutes & & &\\
 
 \end{frame}
  
-
+\subsection{Results and Analysis}
 \begin{frame}
-    \frametitle{Possible Analysis - Experimental approach}
+    \frametitle{Analysis - Experimental approach}
 
-\begin{itemize}
-\item  Experiment results will show which combination of temperature and dilution is the most popular.
-\item The physics-based approach will be able to tell us the expected temperature and dilution of any proportion of ice that we use.
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c||c|c }
+  &40\% &60\% & 75\% &p-value &significance? \\
+\hline  
+t=0.5 mins & 15 & 25 & 32 & 0.047&significant\\ 
+\hline  
+t=2 mins & 14 & 24 & 34&0.016&significant\\ 
+\hline  
+t=5 mins & 14 & 27 & 31&0.037&significant\\ 
+\hline  
+t=30 mins & 18 & 36 & 18&0.011&significant\\ 
+\hline  
+   
+ \end{tabular}
 
-\end{itemize}
+\caption{Experiment results for Coke}
+
+\end{table}
 \end{frame}
 
 \begin{frame}
-    \frametitle{Possible Analysis - Physics-based approach}
+    \frametitle{Analysis - Experimental approach}
+
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c|c|c }
+  &40\% &60\% & 75\% &p-value &significance? \\
+\hline  
+t=0.5 mins & 15 & 27 & 30&0.072&not significant\\ 
+\hline  
+t=2 mins & 20 & 19 & 33&0.079&not significant\\ 
+\hline  
+t=5 mins & 14 & 29 & 29&0.044&significant\\ 
+\hline  
+t=30 mins & 17 & 30 & 25&0.011&significant\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Sprite}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Analysis - Experimental approach}
+
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c|c|c }
+  &40\% &60\% & 75\% &p-value &significance? \\
+\hline  
+t=0.5 mins & 15 & 23 & 34&0.022&significant\\ 
+\hline  
+t=2 mins & 19 & 23 & 30&0.275&not significant\\ 
+\hline  
+t=5 mins & 18 & 27 & 27&0.325&not significant\\ 
+\hline  
+t=30 mins & 12 & 35 & 25&0.004&significant\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Fanta Orange}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Analysis - Experimental approach}
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c|c|c }
+  &40\% &60\% & 75\% &p-value &significance? \\
+\hline  
+t=0.5 mins & 15 & 24 & 33&0.034&significant\\ 
+\hline  
+t=2 mins & 21& 19 & 32&0.130 &not significant\\ 
+\hline  
+t=5 mins & 16 & 24 & 32&0.069&not significant\\ 
+\hline  
+t=30 mins & 18 & 22& 32&0.115&not significant\\ 
+\hline  
+   
+ \end{tabular}
+
+\caption{Experiment results for Diet Coke}
+
+\end{table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Analysis - Physics-based approach}
 \begin{itemize}
 \item This approach will yield more theoretical results since it has the implicit assumption of no outside environmental interference (eg. heat loss).
 \item Heat capacities of sodas and ice might be different in different climates. Thus, it is difficult to say how conclusive these calculations can be.
 \end{itemize}
 \end{frame}
 
+\section{Conclusion}
+\subsection{Deliverables}
 \begin{frame}
     \frametitle{Deliverables - From Team to Sponsor}
 \begin{itemize}
@@ -274,7 +347,7 @@ t= 30 minutes & & &\\
 \end{itemize}
 \end{frame}
 
-
+\subsection{Advantages and Disadvantages}
 \begin{frame}
     \frametitle{Advantages}
 
@@ -308,6 +381,7 @@ t= 30 minutes & & &\\
 
 \end{frame}
 
+\subsection{Further Recommendations}
 \begin{frame}
     \frametitle{Further Recommendations}
 \begin{itemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.25)  25 NOV 2012 15:59
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.25)  25 NOV 2012 23:25
 entering extended mode
 **C:/Users/home/Documents/JOHNS*HOPKINS!/2012/MODELLING/teamworkstatement/McDon
 aldsfinaltalk.git/McDonaldsfinaltalk.tex
@@ -1094,21 +1094,23 @@ Package caption Info: End \AtBeginDocument code.
 aldsfinaltalk.git\McDonaldsfinaltalk.nav") [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("C:\Users\home\Documents\JOHNS HOPKINS!\2012\MODELLING\teamworkstatement\McDon
+aldsfinaltalk.git\McDonaldsfinaltalk.toc")
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 90.
+(Font)              size <5> substituted on input line 68.
 
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 78.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 98.
+LaTeX Font Info:    No file OMScmss.fd. on input line 78.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 98.
+(Font)              for symbol `textbullet' on input line 78.
 
 [3
 
@@ -1131,43 +1133,43 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 ] [12
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 223.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 208.
 
 
 ("C:\Program Files (x86)\Miktex\tex\latex\psnfss\ot1ppl.fd"
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 223
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 208
 .
 
 ("C:\Program Files (x86)\Miktex\tex\latex\psnfss\omlzplm.fd"
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 223
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 208
 .
 
 ("C:\Program Files (x86)\Miktex\tex\latex\psnfss\omszplm.fd"
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 223
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 208
 .
 
 ("C:\Program Files (x86)\Miktex\tex\latex\psnfss\omxzplm.fd"
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 223.
+(Font)              scaled to size 10.42007pt on input line 208.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 223.
+(Font)              scaled to size 7.91925pt on input line 208.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 223.
+(Font)              scaled to size 6.25204pt on input line 208.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 223.
+(Font)              scaled to size 10.42007pt on input line 208.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 223.
+(Font)              scaled to size 7.91925pt on input line 208.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 223.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 223
+(Font)              scaled to size 6.25204pt on input line 208.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 208
 .
 
 ("C:\Program Files (x86)\Miktex\tex\latex\psnfss\ot1zplm.fd"
@@ -1193,6 +1195,12 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 ] [22
 
+] [23
+
+] [24
+
+] [25
+
 ]
 \tf@nav=\write7
 \tf@toc=\write8
@@ -1212,15 +1220,15 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[figure] on input line 25.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
 
 ("C:\Users\home\Documents\JOHNS HOPKINS!\2012\MODELLING\teamworkstatement\McDon
 aldsfinaltalk.git\McDonaldsfinaltalk.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 394.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
 Package rerunfilecheck Info: File `McDonaldsfinaltalk.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 95DF5EA137574ACB7D58645641294F94;889.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1229,18 +1237,18 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 394.
  )
 (\end occurred when \ifx on line 58 was incomplete)
 (\end occurred when \unless\ifcsname on line 58 was incomplete) 
 Here is how much of TeX's memory you used:
- 17494 strings out of 493921
- 325467 string characters out of 3146482
- 428390 words of memory out of 3000000
- 20324 multiletter control sequences out of 15000+200000
+ 17579 strings out of 493921
+ 326666 string characters out of 3146482
+ 438390 words of memory out of 3000000
+ 20387 multiletter control sequences out of 15000+200000
  19445 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 49i,15n,53p,503b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,19n,56p,503b,746s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program File
 s (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files (x86
 )/Miktex/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/Mikt
@@ -1249,9 +1257,9 @@ ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files (x86)/Miktex/fonts/type
 1/public/amsfonts/cm/cmss9.pfb><C:/Program Files (x86)/Miktex/fonts/type1/publi
 c/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/Miktex/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb>
-Output written on McDonaldsfinaltalk.pdf (22 pages, 108534 bytes).
+Output written on McDonaldsfinaltalk.pdf (25 pages, 247049 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 911 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
