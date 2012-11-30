@@ -10,7 +10,7 @@
 \beamer@subsectionintoc {2}{3}{Physics-based Approach}{15}{0}{2}
 \beamer@subsectionintoc {2}{4}{Results}{16}{0}{2}
 \beamer@subsectionintoc {2}{5}{Analysis}{21}{0}{2}
-\beamer@sectionintoc {3}{Conclusion}{27}{0}{3}
-\beamer@subsectionintoc {3}{1}{Deliverables}{27}{0}{3}
-\beamer@subsectionintoc {3}{2}{Advantages and Disadvantages}{29}{0}{3}
-\beamer@subsectionintoc {3}{3}{Further Recommendations}{31}{0}{3}
+\beamer@sectionintoc {3}{Conclusion}{28}{0}{3}
+\beamer@subsectionintoc {3}{1}{Deliverables}{28}{0}{3}
+\beamer@subsectionintoc {3}{2}{Advantages and Disadvantages}{30}{0}{3}
+\beamer@subsectionintoc {3}{3}{Further Recommendations}{32}{0}{3}
