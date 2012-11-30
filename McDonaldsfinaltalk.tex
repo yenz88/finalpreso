@@ -390,6 +390,8 @@ t=2 mins & 14 & 24 & 34&0.016&significant\\
 t=5 mins & 14 & 27 & 31&0.037&significant\\ 
 \hline  
 t=30 mins & 18 & 36 & 18&0.011&significant\\ 
+\hline
+Sum of significant rows & 61 & 112 & 115 & & \\ 
 \hline     
  \end{tabular}
 \caption{Experiment results for Coke}
@@ -418,6 +420,9 @@ t=5 mins & 14 & 29 & 29&0.044&significant\\
 \hline  
 t=30 mins & 17 & 30 & 25&0.011&significant\\ 
 \hline  
+Sum of significant rows & 31 & 59 & 54 & & \\ 
+\hline     
+
  \end{tabular}
 \caption{Experiment results for Sprite}
 \end{table}
@@ -443,6 +448,8 @@ t=2 mins & 19 & 23 & 30&0.275&not significant\\
 t=5 mins & 18 & 27 & 27&0.325&not significant\\ 
 \hline  
 t=30 mins & 12 & 35 & 25&0.004&significant\\ 
+\hline     
+Sum of significant rows & 27 & 58 & 59 & & \\ 
 \hline     
  \end{tabular}
 \caption{Experiment results for Fanta Orange}
@@ -471,6 +478,8 @@ t=5 mins & 16 & 24 & 32&0.069&not significant\\
 \hline  
 t=30 mins & 18 & 22& 32&0.115&not significant\\ 
 \hline  
+Sum of significant rows & 15 & 24 & 33 & & \\ 
+\hline     
  \end{tabular}
 \caption{Experiment results for Diet Coke}
 \end{table}
@@ -480,6 +489,36 @@ t=30 mins & 18 & 22& 32&0.115&not significant\\
 \item Diet Coke's effect on ice/melting points?
 \end{itemize}
 \end{frame}
+
+%% TOTAL 
+\begin{frame}
+    \frametitle{Analysis - Experimental approach}
+\begin{table}[ h]
+\centering
+\begin{tabular}{ l || c|c|c }
+  &40\% &60\% & 75\%  \\
+\hline  
+Coke & 61 & 112 & 115 \\
+\hline  
+Sprite & 31& 59 & 54 \\
+\hline  
+Fanta Orange & 27 & 58 & 59 \\ 
+\hline  
+Diet Coke & 15 & 24& 33 \\ 
+\hline  
+Total & 134 & 253 & 261  \\ 
+\hline     
+ \end{tabular}
+\caption{Experimental Totals}
+\end{table}
+
+\begin{itemize}
+\item Taking the significant sets of data into consideration, there is an overall tendency for our subjects to prefer the 60\% and 75\% choices
+
+\end{itemize}
+
+\end{frame}
+
 
 %% ANALYSIS 
 \begin{frame}
@@ -520,9 +559,9 @@ t=30 mins & 18 & 22& 32&0.115&not significant\\
 
 \begin{itemize}
     \item A table of optimal ice proportions/ratios for each different type of soda (namely Coca Cola, Sprite, Fanta Orange, Diet Coke),
-    \item Matlab code with complete set of documentations that resulting temperature and dilution based on specific heat capacities and ice proportions,
-    \item Numerical experiment results reporting success rate of different ice proportions,
-    \item Technical report and presentations summarizing the work. 
+    \item Matlab code with a complete set of documentations that show the resulting temperature and dilution calculations based on specific heat capacities and ice proportions,
+    \item Numerical experiment results (raw data) of subject's preferences,
+    \item Technical report and presentations summarizing our work. 
 \end{itemize}
 
 
@@ -532,7 +571,7 @@ t=30 mins & 18 & 22& 32&0.115&not significant\\
     \frametitle{Deliverables - From Sponsor to Team}
 
 \begin{itemize}
-    \item Sufficient supply of the 4 different sodas we are concentrating on,
+    \item Sufficient supply of the 4 different sodas we are working with on,
 \item Sufficient supply of cups used by McDonald's
     \item Computing resources,
     \item Timely responses to inquiries.
@@ -547,37 +586,26 @@ t=30 mins & 18 & 22& 32&0.115&not significant\\
     \frametitle{Advantages}
 
 \begin {itemize}
-\item Utilizing the specific heat capacities of soda and ice, we can calculate the different combinations of temperatures and dilution of the drink.
-\item By surveying our sample group (which should be a accurate presentation of the population), we can determine which is the most popular combination of temperature and dilution and thus the optimal combination of ice proportion.
-\item We are able to use physics calculations to compare the accuracy of the experiments.
+\item Comprehensive study of consumer preferences, factoring in time, as opposed to arbitrary ice-filling.
+\item Utilizing the specific heat capacities of soda and ice, we can calculate the different desired combinations of temperatures and dilution of the drink.
+\item Good foundation for further studies with larger populations and additional factors
 \end{itemize}
 
 \end{frame}
 
-%Disadvantages 1 
+%Disadvantages 
 \begin{frame}
     \frametitle{Disadvantages}
 
 \begin{itemize}
-\item Assumption that all customers have the same taste regarding temperature and dilution is probably false, yet we only offer one optimal ice proportion for each drink.
-\item Desired temperature of drink may also depend on location of branch and climate.
+\item Different consumer tastes regarding temperature and dilution. 
+\item Desired temperature of drink is likely to vary with location.
 \item Different types of Soda may have differing effects on ice and their melting points
-
+\item Physics-based calculation assumes no inteference with the environment
 \end{itemize}
 
 \end{frame}
  
-%Disadvantages 2 
-\begin{frame}
-    \frametitle{Disadvantages}
-
-\begin{itemize}
-
-\item Physics-based calculation might not be as accurate since it assumes that there is no inteference with the environment, which is not true in reality.
-\item It is more likely that a customer starts sipping the drink once he/she gets it, rather than waiting for the ice to completely melt.
-\end{itemize}
-
-\end{frame}
 
 %Further Recommendations
 \subsection{Further Recommendations}
@@ -588,7 +616,6 @@ t=30 mins & 18 & 22& 32&0.115&not significant\\
 \item Larger subject population
 \item Specificity in project objectives 
 \item Split sample group based on gender and age.
-\item Perform experiments such that test subject starts drinking once he receives it.
 \end{itemize}
 \end{frame}
 

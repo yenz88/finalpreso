@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 NOV 2012 14:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 NOV 2012 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,13 +1207,33 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 ] [20
 
-] [21
+]
+Overfull \hbox (6.28824pt too wide) in paragraph at lines 404--404
+ [] 
+ []
 
-] [22
+[21
 
-] [23
+]
+Overfull \hbox (13.39937pt too wide) in paragraph at lines 434--434
+ [] 
+ []
 
-] [24
+[22
+
+]
+Overfull \hbox (13.39937pt too wide) in paragraph at lines 463--463
+ [] 
+ []
+
+[23
+
+]
+Overfull \hbox (13.39937pt too wide) in paragraph at lines 491--491
+ [] 
+ []
+
+[24
 
 ] [25
 
@@ -1225,8 +1245,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 ] [29
 
-]
-[30
+] [30
 
 ] [31
 
@@ -1257,13 +1276,13 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[figure] on input line 25.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 626.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 626.
 (./McDonaldsfinaltalk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 599.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 626.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 626.
 Package rerunfilecheck Info: File `McDonaldsfinaltalk.out' has not changed.
-(rerunfilecheck)             Checksum: ADAA79DE36FB89FE6004700AC8761BC4;921.
+(rerunfilecheck)             Checksum: 00F4EC135A99C1E5969979822DC9AFAB;921.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1272,14 +1291,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 626.
  )
 (\end occurred when \ifx on line 58 was incomplete)
 (\end occurred when \unless\ifcsname on line 58 was incomplete) 
 Here is how much of TeX's memory you used:
  17648 strings out of 493488
  327777 string characters out of 3141326
- 455813 words of memory out of 3000000
+ 456998 words of memory out of 3000000
  20447 multiletter control sequences out of 15000+200000
  19445 words of font info for 60 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1292,7 +1311,7 @@ e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive
 012/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/201
 2/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/20
 12/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on McDonaldsfinaltalk.pdf (32 pages, 137647 bytes).
+Output written on McDonaldsfinaltalk.pdf (32 pages, 138219 bytes).
 PDF statistics:
  1341 PDF objects out of 1440 (max. 8388607)
  1246 compressed objects within 13 object streams
